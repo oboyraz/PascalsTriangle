@@ -11,7 +11,7 @@ public class PascalsTriangle {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("pascal ücgen sayisini giriniz: ");
+        System.out.println("Enter the Pascal triangle number: ");
         int numRows = scan.nextInt();
         List<List<Integer>> listOfPascal = new ArrayList<List<Integer>>();
 
